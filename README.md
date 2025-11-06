@@ -10,7 +10,7 @@ If you didn't already, read [OWAS MASTG](https://mas.owasp.org/MASTG/) \([GitHub
 
 I also recommend reading [Hacking iOS Applications](https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf) and [HackTricks - iOS Pentesting](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting).
 
-__In most cases, to be eligible for a bug bounty reward, you need to exploit a vulnerability with non-root priviledges, possibly building your own "malicious" app.__
+__In most cases, to be eligible for a bug bounty reward, you need to exploit a vulnerability without root privileges, potentially by creating your own proof-of-concept (PoC) app with malicious behavior.__
 
 Websites that you should use while writing the report:
 
@@ -1027,7 +1027,7 @@ App should warn a user when taking a screenshot of sensitive data.
 
 App should warn a user that it is trivial to bypass biometrics authentication if iOS device is jailbroken.
 
-Production app (i.e., build) should not be debuggable.
+Production app (i.e., release build) should not be debuggable.
 
 ## 11. Useful Websites and Tools
 
