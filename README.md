@@ -777,6 +777,8 @@ frida -U -no-pause --codeshare ivan-sincek/ios-hook-classes-methods -f com.somea
 
 ## 7. Objection
 
+**Objection has undergone a major usage / syntax upgrade. This section is pending an update.**
+
 Useful resources:
 
 * [sensepost/objection](https://github.com/sensepost/objection)
